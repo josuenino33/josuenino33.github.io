@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apps do zero ao pro</title>
+<meta name="description" content="Apps gratuitos para aprender bateria, guitarra e treinar em casa, do zero ao profissional. Funcionam no navegador e instalam no Android.">
+<meta name="theme-color" content="#101216">
+<link rel="icon" type="image/png" href="bateria-do-zero-ao-pro/icons/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Instrument+Sans:wght@400;600;700&display=swap">
+<style>
+/* Vitrine dos apps: fundo grafite, um cartão por app com a cor do próprio app como acento */
+:root{
+  --bg:#101216; --surface:#181B20; --line:#2C3139; --ink:#ECEEF1; --ink-2:#B2B9C3; --muted:#848C98;
+  --f-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --f-body:"Instrument Sans","Segoe UI",system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink)}
+body{font-family:var(--f-body);font-size:16px;line-height:1.5;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px}
+header{padding-block:56px 32px;display:grid;gap:12px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{margin:0;font-family:var(--f-display);font-weight:800;text-transform:uppercase;font-size:clamp(44px,8vw,84px);line-height:.92;letter-spacing:.01em;text-wrap:balance}
+.lead{margin:0;color:var(--ink-2);max-width:60ch;font-size:18px}
+.apps{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;padding-bottom:40px}
+.app{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;display:grid;gap:14px;align-content:start;border-top:4px solid var(--c)}
+.app .top{display:flex;gap:14px;align-items:center}
+.app img{width:64px;height:64px;border-radius:16px;flex:none}
+.app h2{margin:0;font-size:22px;line-height:1.15}
+.app .tag{font-size:13px;color:var(--muted)}
+.app p{margin:0;color:var(--ink-2)}
+.app ul{margin:0;padding-left:18px;color:var(--ink-2);font-size:14px;display:grid;gap:4px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 16px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none;border:1px solid var(--line);color:var(--ink)}
+.btn:hover{border-color:var(--ink-2)}
+.btn.main{background:var(--c);border-color:var(--c);color:var(--on,#fff)}
+.btn:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+section.how{border-top:1px solid var(--line);padding-block:32px 48px;display:grid;gap:14px}
+section.how h3{margin:0;font-size:20px}
+section.how ol{margin:0;padding-left:20px;color:var(--ink-2);display:grid;gap:6px;max-width:70ch}
+footer{border-top:1px solid var(--line);padding-block:24px 40px;color:var(--muted);font-size:14px}
+footer a{color:var(--ink-2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Apps gratuitos · sem conta · sem anúncio</span>
+    <h1>Do zero ao pro</h1>
+    <p class="lead">Aprenda bateria, aprenda guitarra e treine em casa com apps que montam o seu plano do dia e acompanham a sua evolução. Funcionam no navegador, sem internet depois de abertos, e instalam no Android.</p>
+  </header>
+
+  <main class="apps">
+    <article class="app" style="--c:#DDA94A;--on:#1A1206">
+      <div class="top"><img src="bateria-do-zero-ao-pro/icons/icon-192.png" alt=""><div><h2>Bateria do zero ao pro</h2><span class="tag">Método Rufar</span></div></div>
+      <p>Escola de bateria com professor que ouve seu tempo pelo microfone.</p>
+      <ul><li>292 exercícios em 15 módulos</li><li>Partitura que toca junto e metrônomo</li><li>Sextinas, pedal duplo, gospel, rock, metal e ritmos brasileiros</li></ul>
+      <div class="actions">
+        <a class="btn main" href="https://github.com/josuenino33/apps-android/releases/latest/download/bateria-do-zero-ao-pro.apk">Baixar para Android</a>
+        <a class="btn" href="bateria-do-zero-ao-pro/">Abrir no navegador</a>
+      </div>
+    </article>
+
+    <article class="app" style="--c:#1E7F45">
+      <div class="top"><img src="guitarra-do-zero-ao-pro/icons/icon-192.png" alt=""><div><h2>Guitarra do zero ao pro</h2><span class="tag">Mapa do Braço</span></div></div>
+      <p>Escola de guitarra interativa, do primeiro acorde ao solo.</p>
+      <ul><li>79 aulas em 5 níveis, com prova prática</li><li>Mapa do braço, escalas, CAGED e dicionário de acordes</li><li>Licks, estudos e jam em qualquer tom</li></ul>
+      <div class="actions">
+        <a class="btn main" href="https://github.com/josuenino33/apps-android/releases/latest/download/guitarra-do-zero-ao-pro.apk">Baixar para Android</a>
+        <a class="btn" href="guitarra-do-zero-ao-pro/">Abrir no navegador</a>
+      </div>
+    </article>
+
+    <article class="app" style="--c:#2A6FC4">
+      <div class="top"><img src="treino-em-casa-do-zero/icons/icon-192.png" alt=""><div><h2>Treino em casa do zero</h2><span class="tag">Trilha</span></div></div>
+      <p>Força, fôlego e perda de gordura aos poucos, sem academia.</p>
+      <ul><li>7 trilhas e 55 níveis com o peso do corpo</li><li>Ilustrações animadas de cada movimento</li><li>Começo bem devagar para quem está parado</li></ul>
+      <div class="actions">
+        <a class="btn main" href="https://github.com/josuenino33/apps-android/releases/latest/download/treino-em-casa-do-zero.apk">Baixar para Android</a>
+        <a class="btn" href="treino-em-casa-do-zero/">Abrir no navegador</a>
+      </div>
+    </article>
+  </main>
+
+  <section class="how">
+    <h3>Como instalar no Android</h3>
+    <ol>
+      <li>Toque em <b>Baixar para Android</b> no app que você quer.</li>
+      <li>Abra o arquivo baixado. Na primeira vez, o Android pede para permitir a instalação a partir do navegador: permita.</li>
+      <li>Toque em <b>Instalar</b>. O app aparece na sua lista de apps e se atualiza sozinho.</li>
+    </ol>
+    <p class="lead" style="font-size:15px">No iPhone, abra o app no Safari, toque em Compartilhar e depois em "Adicionar à Tela de Início".</p>
+  </section>
+
+  <footer>Feito por <a href="https://github.com/josuenino33">josuenino33</a>. O código de todos os apps está aberto no GitHub.</footer>
+</div>
+</body>
+</html>
