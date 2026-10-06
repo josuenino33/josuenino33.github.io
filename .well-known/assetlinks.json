@@ -58,5 +58,17 @@
         "62:77:C5:E3:9B:E8:29:4C:4C:5C:AD:B8:48:B4:8A:0E:0A:EA:E4:9B:B6:2C:7A:FB:64:1B:1F:A2:71:63:8B:1B"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.josuenino33.ingles",
+      "sha256_cert_fingerprints": [
+        "62:77:C5:E3:9B:E8:29:4C:4C:5C:AD:B8:48:B4:8A:0E:0A:EA:E4:9B:B6:2C:7A:FB:64:1B:1F:A2:71:63:8B:1B"
+      ]
+    }
   }
 ]
